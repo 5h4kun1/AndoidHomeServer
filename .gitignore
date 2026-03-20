@@ -1,0 +1,18 @@
+# Logs
+logs/
+*.log
+*.log.old
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# Secrets (never commit these)
+*.json
+!package.json
+
+# OS
+.DS_Store
+Thumbs.db
